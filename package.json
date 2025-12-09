@@ -1,0 +1,37 @@
+{
+	"name": "p5",
+	"version": "0.1.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "next build",
+		"check": "biome check .",
+		"check:unsafe": "biome check --write --unsafe .",
+		"check:write": "biome check --write .",
+		"dev": "next dev --turbo",
+		"preview": "next build && next start",
+		"start": "next start",
+		"typecheck": "tsc --noEmit"
+	},
+	"dependencies": {
+		"@t3-oss/env-nextjs": "^0.12.0",
+		"next": "^16.0.8",
+		"p5": "^2.1.1",
+		"react": "^19.2.1",
+		"react-dom": "^19.2.1",
+		"zod": "^3.25.76"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.3.8",
+		"@tailwindcss/postcss": "^4.1.17",
+		"@types/node": "^20.19.26",
+		"@types/react": "^19.2.7",
+		"@types/react-dom": "^19.2.3",
+		"postcss": "^8.5.6",
+		"tailwindcss": "^4.1.17",
+		"typescript": "^5.9.3"
+	},
+	"ct3aMetadata": {
+		"initVersion": "7.40.0"
+	}
+}
