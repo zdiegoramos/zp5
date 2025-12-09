@@ -3,25 +3,18 @@
 import type p5 from "p5";
 import { P5Canvas } from "@/components/p5";
 
-function draw({
-	background,
-	mouseIsPressed,
-	fill,
-	circle,
-	mouseX,
-	mouseY,
-}: p5) {
-	background("tomato");
+function draw(p: p5) {
+	p.background("tomato");
 
-	if (mouseIsPressed === true) {
+	if (p.mouseIsPressed === true) {
 		//when mouse button is pressed, circles turn black
-		fill(0);
+		p.fill(0);
 	} else {
-		fill(255);
+		p.fill(255);
 	}
 
 	//white circles drawn at mouse position
-	circle(mouseX, mouseY, 100);
+	p.circle(p.mouseX, p.mouseY, 100);
 }
 
 export function TrackMouseWithBall() {
