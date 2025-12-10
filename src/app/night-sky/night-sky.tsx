@@ -1,3 +1,6 @@
+// Learned from
+// https://p5js.org/tutorials/variables-and-change/
+
 "use client";
 
 import type p5 from "p5";
