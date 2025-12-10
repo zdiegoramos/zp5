@@ -12,7 +12,7 @@ import {
 const pages = [
 	{ name: "Home", path: "/" },
 	{ name: "Night Sky", path: "/night-sky" },
-	{ name: "Tiles", path: "/tiles" },
+	{ name: "Rotating Blocks", path: "/rotating-blocks" },
 	{ name: "Sunrise", path: "/sunrise" },
 	{ name: "Sunrise Animation", path: "/sunrise-animation" },
 	{ name: "Sunrise with Trees", path: "/sunrise-with-trees" },

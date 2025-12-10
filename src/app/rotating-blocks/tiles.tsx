@@ -87,6 +87,6 @@ function draw(p: p5) {
 	});
 }
 
-export function Tiles() {
+export function RotatingBlocks() {
 	return <P5Canvas draw={draw} setup={setup} />;
 }

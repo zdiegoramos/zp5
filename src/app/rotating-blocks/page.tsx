@@ -1,9 +1,9 @@
-import { Tiles } from "@/app/tiles/tiles";
+import { RotatingBlocks } from "@/app/rotating-blocks/tiles";
 
 export default function Page() {
 	return (
 		<div className="flex h-screen w-screen items-center justify-center">
-			<Tiles />
+			<RotatingBlocks />
 		</div>
 	);
 }
