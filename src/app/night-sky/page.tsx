@@ -1,4 +1,4 @@
-import { NightSky } from "@/app/night-sky/night-sky";
+import { NightSky } from "@/app/night-sky";
 
 export default function Page() {
 	return (

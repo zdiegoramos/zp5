@@ -1,4 +1,4 @@
-import { SunriseAnimation } from "@/app/sunrise-animation/sunrise-animation";
+import { SunriseAnimation } from "@/app/sunrise-animation";
 
 export default function Page() {
 	return (

@@ -1,4 +1,4 @@
-import { SunriseWithTrees } from "@/app/sunrise-with-trees/sunrise-with-trees";
+import { SunriseWithTrees } from "@/app/sunrise-with-trees";
 
 export default function Page() {
 	return (

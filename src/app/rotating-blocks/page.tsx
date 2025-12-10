@@ -1,4 +1,4 @@
-import { RotatingBlocks } from "@/app/rotating-blocks/rotating-blocks";
+import { RotatingBlocks } from "@/app/rotating-blocks";
 
 export default function Page() {
 	return (

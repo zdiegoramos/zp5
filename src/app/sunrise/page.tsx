@@ -1,4 +1,4 @@
-import { Sunrise } from "@/app/sunrise/sunrise";
+import { Sunrise } from "@/app/sunrise";
 
 export default function Page() {
 	return (
