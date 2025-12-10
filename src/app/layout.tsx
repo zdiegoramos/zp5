@@ -2,6 +2,7 @@ import "@/styles/globals.css";
 
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
+import { NavigationMenu } from "@/components/navigation-menu";
 
 export const metadata: Metadata = {
 	title: "p5 Sandbox",
@@ -19,7 +20,10 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
 	return (
 		<html className={`${geist.variable}`} lang="en">
-			<body>{children}</body>
+			<body>
+				{children}
+				<NavigationMenu />
+			</body>
 		</html>
 	);
 }
