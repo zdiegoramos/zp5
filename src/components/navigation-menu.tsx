@@ -11,6 +11,8 @@ import {
 
 const pages = [
 	{ name: "Home", path: "/" },
+	{ name: "Flower", path: "/flower" },
+	{ name: "Pixelated Image", path: "/pixel-image" },
 	{ name: "Night Sky", path: "/night-sky" },
 	{ name: "Rotating Blocks", path: "/rotating-blocks" },
 	{ name: "Sunrise", path: "/sunrise" },
